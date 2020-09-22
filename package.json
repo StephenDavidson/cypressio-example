@@ -4,8 +4,8 @@
   "description": "Example of using cypress for UI testing",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run",
-    "cy:open": "cypress open"
+    "test": "cypress run",
+    "test:dev": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/StephenDavidson/cypressio-example#readme",
   "devDependencies": {
-    "cypress": "^3.6.0"
+    "cypress": "^5.2.0"
   }
 }

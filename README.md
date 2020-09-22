@@ -9,13 +9,13 @@ Install dependencies
 
 Run the tests
 
-`npm run cy:run`
+`npm test`
 
 
 ## with docker
 
-`docker run -it --rm -v ${PWD}:/app -w /app cypress/included:3.2.0`
+`docker run -it --rm -v ${PWD}:/app -w /app cypress/included:5.2.0`
 
 ## debugging
 
-`npm run cy:open`
+`npm run test:dev`
